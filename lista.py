@@ -10,8 +10,7 @@ for key, values in lista_zakupów.items():
     text += f"Idę do {key.title()}, kupuję tam: {values}. \n"
     n = n + len(values)
 
-text += f"W sumię kupuję {n} produktów, gdyz wstąpiłam do cukierni. \n"
-
+text += f"W sumię kupuję {n} produktów, gdyz wstąpiłam do cukierni. \n\n"
 
 text += "Cięzko jest to ogarnąć, ale walczę dzielnie! Pozdrowienia :)"
 print(text)
